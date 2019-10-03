@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(array1)
   array1.each {|item|
-    puts "#{item}.capticalize!"
+    array1.push("#{item.capitalize}!")
   }
 end
 
